@@ -1,0 +1,3 @@
+java JCheckBoxMenuItemDemo
+
+pause

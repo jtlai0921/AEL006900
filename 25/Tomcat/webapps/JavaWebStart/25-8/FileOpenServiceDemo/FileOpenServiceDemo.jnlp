@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP FileOpenService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-8/FileOpenServiceDemo" 
+	href="FileOpenServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP FileOpenService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP FileOpenService</description> 
+		<description kind="short">Demo of JNLP FileOpenService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="FileOpenServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="FileOpenServiceDemo"/> 
+</jnlp> 

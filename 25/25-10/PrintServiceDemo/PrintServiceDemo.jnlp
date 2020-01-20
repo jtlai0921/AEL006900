@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP PrintService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-10/PrintServiceDemo" 
+	href="PrintServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP PrintService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP PrintService</description> 
+		<description kind="short">Demo of JNLP PrintService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="PrintServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="PrintServiceDemo"/> 
+</jnlp> 

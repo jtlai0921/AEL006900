@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for Java Bindings for OpenGL --> 
+<jnlp 
+  codebase="http://localhost:8080/JOGL/30-4" 
+  href="JOGLDemo.jnlp"> 
+  <information> 
+    <title>JOGL with Swing</title> 
+    <vendor>Leo Huang</vendor> 
+    <description>JOGL with Swing</description> 
+    <description kind="short">Demo of Java Bindings for OpenGL 3D API</description> 
+    <offline-allowed/> 
+  </information> 
+
+  <resources>
+    <j2se version="1.5.0+"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <jar href="JOGLDemo.jar" main="true"/>
+    <extension name="jogl" href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp" />
+  </resources>
+
+  <application-desc main-class="JOGLDemo"/> 
+</jnlp> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP ClipboardService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-11/ClipboardServiceDemo" 
+	href="ClipboardServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP ClipboardService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP ClipboardService</description> 
+		<description kind="short">Demo of JNLP ClipboardService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="ClipboardServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="ClipboardServiceDemo"/> 
+</jnlp> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP BasicService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-7/BasicServiceDemo" 
+	href="BasicServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP BasicService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP BasicService</description> 
+		<description kind="short">Demo of JNLP BasicService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="BasicServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="BasicServiceDemo"/> 
+</jnlp> 

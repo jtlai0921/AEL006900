@@ -1,0 +1,3 @@
+java AcceleratorDemo
+
+pause

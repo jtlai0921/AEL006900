@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-14/ExtensionInstallerServiceDemo" 
+	href="JNLP-Main.jnlp"> 
+	<information> 
+		<title>JNLP Extension Installer</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP Extension Installer</description> 
+		<description kind="short">Demo of JNLP Extension Installer</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+    <extension
+      name="Extension Installer" 
+      href="JNLP-Extension.jnlp">
+    </extension>
+		<jar href="JNLPApplication.jar"/> 
+	</resources> 
+	<application-desc main-class="JNLPApplication"/> 
+</jnlp> 

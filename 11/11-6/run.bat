@@ -1,0 +1,3 @@
+java DrawImageDemo
+
+pause

@@ -1,0 +1,3 @@
+javac osProperties.java
+
+pause

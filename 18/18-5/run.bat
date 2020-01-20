@@ -1,0 +1,3 @@
+java JMenuDemo
+
+pause

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLPRandomAccessFile API Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-12/RandomAccessFileDemo" 
+	href="RandomAccessFileDemo.jnlp"> 
+	<information> 
+		<title>JNLPRandomAccessFile API</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLPRandomAccessFile API</description> 
+		<description kind="short">Demo of JNLPRandomAccessFile API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="RandomAccessFileDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="RandomAccessFileDemo"/> 
+</jnlp> 

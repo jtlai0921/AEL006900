@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for Applet --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-4" 
+	href="JNLPApplet.jnlp"> 
+	<information> 
+		<title>JNLP Applet</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP Applet</description> 
+		<description kind="short">JNLP Applet</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="JNLPApplet.jar"/> 
+	</resources> 
+  <applet-desc 
+    main-class="JNLPApplet"
+    name="JNLP Applet"
+    width="200"
+    height="150"/>
+  </applet-desc>
+</jnlp> 

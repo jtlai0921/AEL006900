@@ -1,0 +1,3 @@
+javac deployProperties.java
+
+pause

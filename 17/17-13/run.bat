@@ -1,0 +1,3 @@
+java JCheckBoxEventDemo
+
+pause

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP ExtendedService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-13/ExtendedServiceDemo" 
+	href="ExtendedServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP ExtendedService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP ExtendedService</description> 
+		<description kind="short">Demo of JNLP ExtendedService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="ExtendedServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="ExtendedServiceDemo"/> 
+</jnlp> 

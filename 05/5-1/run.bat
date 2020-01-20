@@ -1,0 +1,3 @@
+java LabelDemo
+
+pause

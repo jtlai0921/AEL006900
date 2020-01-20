@@ -1,0 +1,3 @@
+java JTextPaneDemo
+
+pause

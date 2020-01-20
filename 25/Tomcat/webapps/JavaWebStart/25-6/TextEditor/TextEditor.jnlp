@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for Java TextEditor Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-6/TextEditor" 
+	href="TextEditor.jnlp"> 
+	<information> 
+		<title>Java TextEditor</title> 
+		<vendor>Leo Huang</vendor> 
+		<homepage href="docs/help.html"/>
+		<description>Java TextEditor</description> 
+		<description kind="short">Java TextEditor</description> 
+		<icon href="images/icon.gif"/>
+    <icon kind="splash" href="images/icon.gif"/>
+    <offline-allowed/> 
+		<shortcut online="true">
+		  <desktop/>
+		  <menu submenu="Java TextEditor"/>
+		</shortcut>
+	</information> 
+	<security> 
+		<all-permissions/> 
+	</security> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="TextEditor.jar"/> 
+	</resources> 
+	<application-desc main-class="TextEditor"/> 
+</jnlp> 

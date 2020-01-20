@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for JNLP FileSaveService Demo Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-9/FileSaveServiceDemo" 
+	href="FileSaveServiceDemo.jnlp"> 
+	<information> 
+		<title>JNLP FileSaveService</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>JNLP FileSaveService</description> 
+		<description kind="short">Demo of JNLP FileSaveService API</description> 
+    <offline-allowed/> 
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="FileSaveServiceDemo.jar"/> 
+	</resources> 
+	<application-desc main-class="FileSaveServiceDemo"/> 
+</jnlp> 

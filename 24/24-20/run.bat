@@ -1,0 +1,3 @@
+java TableCellRendererDemo
+
+pause

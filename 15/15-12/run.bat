@@ -1,0 +1,3 @@
+java CustomBorderDemo
+
+REM pause

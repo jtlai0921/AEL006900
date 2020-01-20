@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- JNLP File for FontBox Application --> 
+<jnlp 
+  spec="1.0+"
+	codebase="http://localhost:8080/JavaWebStart/25-5/FontBox" 
+	href="FontBox.jnlp"> 
+	<information> 
+		<title>Java FontBox</title> 
+		<vendor>Leo Huang</vendor> 
+		<description>Java FontBox</description> 
+		<description kind="short">Java FontBox</description> 
+		<offline-allowed/> 
+		<shortcut online="true">
+		  <desktop/>
+		  <menu submenu="Java FontBox"/>
+		</shortcut>
+	</information> 
+	<resources> 
+		<j2se version="1.6.0+"/> 
+		<jar href="FontBox.jar"/> 
+	</resources> 
+	<application-desc main-class="FontBox"/> 
+</jnlp> 
